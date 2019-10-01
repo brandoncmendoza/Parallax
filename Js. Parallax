@@ -8,20 +8,17 @@ var totalSlideNumber = $(".background").length;
 
 function parallaxScroll(evt) {
   if (isFirefox) {
-    //data para firefox
-    delta = evt.detail * (-120);
+     delta = evt.detail * (-120);
   } else if (isIe) {
-    //delta del IE
-    delta = -evt.deltaY;
+        delta = -evt.deltaY;
   } else {
-    //Set delta for all other browsers
+    
     delta = evt.wheelDelta;
   }
 
   if (ticking != true) {
     if (delta <= -scrollSensitivitySetting) {
-      //Down scroll
-      ticking = true;
+         ticking = true;
       if (currentSlideNumber !== totalSlideNumber - 1) {
         currentSlideNumber++;
         nextItem();
@@ -29,8 +26,7 @@ function parallaxScroll(evt) {
       slideDurationTimeout(slideDurationSetting);
     }
     if (delta >= scrollSensitivitySetting) {
-      //Up scroll
-      ticking = true;
+            ticking = true;
       if (currentSlideNumber !== 0) {
         currentSlideNumber--;
       }
