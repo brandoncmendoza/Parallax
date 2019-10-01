@@ -1,0 +1,21 @@
+<div class="container">
+  <section class="background">
+    <div class="content-wrapper">
+      <p class="content-title">Brandommgames</p>
+      <p class="content-subtitle">pagina prueba parallax</p>
+    </div>
+  </section>
+  <section class="background">
+    <div class="content-wrapper">
+      <p class="content-title">Los mejores juegos del 2019.</p>
+      <p class="content-subtitle">Youtuber-Brandon</p>
+    </div>
+  </section>
+  <section class="background">
+    <div class="content-wrapper">
+      <p class="content-title">Videos de youtube.</p>
+      <p class="content-subtitle">Mayor entretenimiento.</p>
+    </div>
+  </section>
+</div>
+
