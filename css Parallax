@@ -53,7 +53,7 @@ html, body {
   }
 }
 
-/* Set stacking context of slides */
+
 @for $i from 1 to ($slide-number + 1) {
     .background:nth-child(#{$i}) {
         z-index: ($slide-number + 1) - $i; 
